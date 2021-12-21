@@ -15,6 +15,12 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 -Base de datos de los camareros, mesas y salas.
 -Documentos de la pagina web.
 ```
+_Cambiar archivo config.php por:
+
+define("SERVIDOR","localhost");
+define("USUARIO","root");
+define("PASSWORD","");
+define("BD","bd_restaurante");
 
 ### Instalación 🔧
 
